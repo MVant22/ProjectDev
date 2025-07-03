@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Smart Inventory</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="dashboardStyle.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark sticky-top">
+    <div class="container-fluid">
+      <button class="btn btn-outline-light d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu">
+        ☰
+      </button>
+      <a class="navbar-brand ms-2" href="#">Smart Inventory</a>
+      <div class="d-flex align-items-center">
+        <span class="text-white me-3">Admin</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Layout -->
+  <div class="d-flex">
+    <!-- Sidebar (Offcanvas) -->
+    <div class="offcanvas-lg offcanvas-start text-bg-dark" tabindex="-1" id="sidebarMenu">
+      <div class="offcanvas-body sidebar p-3">
+        <h5>Navigation</h5>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="#">Transactions</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="w-100">
+      <h2>Welcome to the Smart Inventory Dashboard</h2>
+      <p>This is where content will appear. You can display statistics, charts, and summaries here.</p>
+    </main>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
